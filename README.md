@@ -2,15 +2,13 @@
 
 Munkaidő nyílvántartó és bérkalkulátor:
 
-Fukcionális követelmények:
-
--Új dolgozó felvétele
--Dolgozók rendszerezett listázása
--Dolgozói adatlapok
--Bér kalkuláció
--Dolgozói bejelentkező felület
--Szabadságolások és szünetek kezelése
-
+Fukcionális követelmények:	-Új dolgozó felvétele
+				-Dolgozók rendszerezett listázása
+				-Dolgozói adatlapok
+				-Bér kalkuláció
+				-Dolgozói bejelentkező felület
+				-Szabadságolások és szünetek kezelése
+	
 Dolgozók átal elérhető funkciók:
 
 -Saját adatlap módosítása:
@@ -24,26 +22,25 @@ Dolgozók átal elérhető funkciók:
 -Beléptető felület
 -Szüneteket kezelő felület
 
-Moderátorok átal elérhető funkciók:
+Moderátorok átal elérhető funkciók:	-Adatlap létrehozása, módosítása, törlése
+				   	-Jutalékok, bónuszok számolása
 
--Adatlap létrehozása, módosítása, törlése
--Jutalékok, bónuszok számolása
 
-Adminisztrátorok átal elérhető funkciók:
+Adminisztrátorok átal elérhető funkciók:	-Moderátori jog adása és elvétele
+						-Adatlap létrehozása, módosítása, törlése
+						-Jutalékok, bónuszok számolása
 
--Moderátori jog adása és elvétele
--Adatlap létrehozása, módosítása, törlése
--Jutalékok, bónuszok számolása
 
-Nem funkcionális feltételek:
+Nem funkcionális feltételek:	-Egyszerű, letisztult és felhasználóbarát felület
+				-Jelszavas beléptetés
+				-Jelszavak biztonságos tárolása
+				-Adatlap személyes adatainak biztonségos tárolása
 
--Egyszerű, letisztult és felhasználóbarát felület
--Jelszavas beléptetés
--Jelszavak biztonságos tárolása
--Adatlap személyes adatainak biztonségos tárolása
+
 
 Szakterületi fogalomjegyzék:
--Bér: a munkaviszony keretében foglalkoztatott munkavállaló munkája alapján a munkáltató által a munkavállalónak fizetendő pénzösszeg. 
+-Bér: a munkaviszony keretében foglalkoztatott munkavállaló munkája alapján a munkáltató által a munkavállalónak fizetendő pénzösszeg.
+
 -Jutalék/Bónusz: a kereskedelemben bevett ösztönzési mód, a jól teljesítő dolgozóknak extra fizetés
 
 
