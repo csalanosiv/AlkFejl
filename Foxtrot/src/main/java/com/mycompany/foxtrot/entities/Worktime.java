@@ -37,4 +37,8 @@ public class Worktime implements Serializable  {
   @Column
   private LocalDateTime breakfinish;
   
+  @Column
+  private int timecounter;
+    
+  
 }

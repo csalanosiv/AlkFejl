@@ -56,8 +56,8 @@ public class SalaryController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity delete(@PathVariable Integer id) {
-        Optional<Salary> oLabel = salaryRepository.findById(id);
-        if (oLabel.isPresent()) {
+        Optional<Salary> oSalary = salaryRepository.findById(id);
+        if (oSalary.isPresent()) {
             salaryRepository.deleteById(id);
             return ResponseEntity.ok().build();
         } else {
