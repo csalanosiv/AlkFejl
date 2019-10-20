@@ -1,6 +1,6 @@
 # AlkFejl
 
-Munkaidő nyílvántartó és bérkalkulátor:
+## Munkaidő nyílvántartó és bérkalkulátor:
 
 Fukcionális követelmények:	
 * Új dolgozó felvétele
