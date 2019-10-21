@@ -1,12 +1,2 @@
 com\mycompany\foxtrot\entities\Worktime.class
 com\mycompany\foxtrot\repositories\WorktimeRepository.class
-com\mycompany\foxtrot\controllers\UserController.class
-com\mycompany\foxtrot\entities\Salary.class
-com\mycompany\foxtrot\entities\User.class
-com\mycompany\foxtrot\controllers\SalaryController.class
-com\mycompany\foxtrot\entities\User$Role.class
-com\mycompany\foxtrot\repositories\WorkerRepository.class
-com\mycompany\foxtrot\entities\Worker.class
-com\mycompany\foxtrot\FoxtrotApplication.class
-com\mycompany\foxtrot\repositories\SalaryRepository.class
-com\mycompany\foxtrot\repositories\UserRepository.class

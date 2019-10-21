@@ -10,7 +10,7 @@ import org.springframework.security.web.authentication.www.BasicAuthenticationEn
 
 public class CustomBasicAuthenticationEntryPoint extends BasicAuthenticationEntryPoint {
  
-    @Override
+   /* @Override
     public void commence(final HttpServletRequest request, 
             final HttpServletResponse response, 
             final AuthenticationException authException) throws IOException, ServletException {
@@ -26,5 +26,5 @@ public class CustomBasicAuthenticationEntryPoint extends BasicAuthenticationEntr
     public void afterPropertiesSet() throws Exception {
         setRealmName("MY REALM");
         super.afterPropertiesSet();
-    }
+    }*/
 }
