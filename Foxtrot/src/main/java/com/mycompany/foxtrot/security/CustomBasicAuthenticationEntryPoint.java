@@ -2,11 +2,11 @@ package com.mycompany.foxtrot.security;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint;
+
 
 public class CustomBasicAuthenticationEntryPoint extends BasicAuthenticationEntryPoint {
  
@@ -23,8 +23,9 @@ public class CustomBasicAuthenticationEntryPoint extends BasicAuthenticationEntr
     }
      
     @Override
-    public void afterPropertiesSet() {
+    public void afterPropertiesSet() throws Exception {
         setRealmName("MY REALM");
         super.afterPropertiesSet();
     }
+   
 }
