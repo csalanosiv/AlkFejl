@@ -41,6 +41,7 @@ Szakterületi fogalomjegyzék:
 * Jutalék/Bónusz: a kereskedelemben bevett ösztönzési mód, a jól teljesítő dolgozóknak extra fizetés
 
 [Use-case diagram](https://github.com/csalanosiv/AlkFejl/blob/master/use-case-diagram.jpg)
+![Use-case diagram](https://raw.githubusercontent.com/csalanosiv/AlkFejl/master/use-case-diagram.jpg)
 
 [Database diagram](https://github.com/csalanosiv/AlkFejl/blob/master/Database%20diagram.png)
 
