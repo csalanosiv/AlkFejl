@@ -44,7 +44,7 @@ Szakterületi fogalomjegyzék:
 
 [Database diagram](https://github.com/csalanosiv/AlkFejl/blob/master/Database%20diagram.png)
 
-
+[A szünetre bejelentkezés folyamata](https://github.com/csalanosiv/AlkFejl/blob/master/folyamatabra.jpg)
 
 
 			 
