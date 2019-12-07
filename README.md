@@ -48,12 +48,12 @@ Szakterületi fogalomjegyzék:
 
 ## Felhasználói dokumentáció
 
-1.Bejelentkezés
-2.Munka indítása
-3.Szünet indítása
-4.Szünet leállítása
-5.Munka leállítása
-6.Moderátorok lehetőségei:
+1. Bejelentkezés
+2. Munka indítása
+3. Szünet indítása
+4. Szünet leállítása
+5. Munka leállítása
+6. Moderátorok lehetőségei:
 	- Dolgozók listázása
 ### 1.Bejelentkezés
 A bejelentkezéshez meg kell adni a felhasználónevet, illetve a jelszót. Bejelentkezés után az adatok fülön lehetőség van a jelszó módosításra, illetve az adatok megtekintésére.
