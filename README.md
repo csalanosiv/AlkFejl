@@ -46,5 +46,27 @@ Szakterületi fogalomjegyzék:
 
 [A szünetre bejelentkezés folyamata](https://github.com/csalanosiv/AlkFejl/blob/master/folyamatabra.jpg)
 
+## Felhasználói dokumentáció
+
+1.Bejelentkezés
+2.Munka indítása
+3.Szünet indítása
+4.Szünet leállítása
+5.Munka leállítása
+6.Moderátorok lehetőségei:
+	- Dolgozók listázása
+### 1.Bejelentkezés
+A bejelentkezéshez meg kell adni a felhasználónevet, illetve a jelszót. Bejelentkezés után az adatok fülön lehetőség van a jelszó módosításra, illetve az adatok megtekintésére.
+### 2.Munka indítása
+Bejelentkezés után lehet elindítani a munkát, a „Munka indítása” gombra kattintva. Ezután az oldalon látható, hogy mennyi ideje van éppen munkában.
+### 3.Szünet indítása
+Szünet indítására csak a munka elindítása után van lehetőség. A szünetet a „Szünet indítása” gombra kattintva lehet elindítani, az oldal írja, hogy mennyi ideje van szüneten.
+### 4.Szünet leállítása
+A szünet leállítását a „Szünet befejezése” gombra kattintva lehet kezdeményezni. Ezután az oldal kiírja, hogy mennyi időt töltött szüneten, és újra elindítja a munkát. 
+### 5.Munka leállítása
+A munkát leállítani a „Munka befejezése” gombbal lehet. Ekkor kiírja az oldal, hogy aznap hány órát töltött a felhasználó a munkában.
+### 6.Moderátorok lehetőségei:
+#### Dolgozók listázása:
+Moderátorként lehetőség van az éppen aktív dolgozók listázására. Ekkor megjeleníti a dolgozó nevét, hogy éppen szüneten van-e, és hogy hány órája van munkában.
 
 			 
