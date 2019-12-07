@@ -40,8 +40,8 @@ Szakterületi fogalomjegyzék:
 * Bér: a munkaviszony keretében foglalkoztatott munkavállaló munkája alapján a munkáltató által a munkavállalónak fizetendő pénzösszeg.
 * Jutalék/Bónusz: a kereskedelemben bevett ösztönzési mód, a jól teljesítő dolgozóknak extra fizetés
 
-
-
+[Use-case diagram](https://github.com/csalanosiv/AlkFejl/blob/master/use-case-diagram.jpg)
+[Database diagram](https://github.com/csalanosiv/AlkFejl/blob/master/Database%20diagram.png)
 
 
 
