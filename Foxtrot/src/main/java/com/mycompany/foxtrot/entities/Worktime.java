@@ -18,7 +18,7 @@ import org.springframework.data.annotation.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
-public class Worktime implements Serializable  {
+public class Worktime {
   
   @javax.persistence.Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)

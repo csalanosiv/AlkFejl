@@ -11,11 +11,9 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
-/**
- *
- * @author KeresztiKrisztián
- */
+@CrossOrigin
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(securedEnabled = true)
@@ -30,7 +28,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
               .and()
           .csrf().disable()
           .authorizeRequests()
-              .antMatchers("/h2/**", "/users/register").permitAll()   // important!
+              .antMatchers("/h2/**", "/users/register", "/issues/**", "/issues").permitAll()   // important!
               .anyRequest().authenticated()
               .and()
           .httpBasic()

@@ -26,7 +26,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
-public class Worker implements Serializable {
+public class Worker {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

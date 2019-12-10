@@ -19,13 +19,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class User implements Serializable {
+public class User {
 
-    @OneToOne
-    private Worker worker;
-     @Id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(nullable = false)
     private Integer id;
     
     @Column(nullable = false)
@@ -35,13 +32,12 @@ public class User implements Serializable {
     private String password;
     
     @Column(nullable = false)
-    private boolean working;
+    private boolean enabled;
     
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
     private Role role;
     
     public enum Role {
-        ROLE_USER, ROLE_ADMIN
-    }
-}
+        ROLE_GUEST, ROLE_USER, ROLE_ADMIN
+    }}
